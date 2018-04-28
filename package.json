@@ -73,5 +73,24 @@
     "webpack": "^3.6.0",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.19.1"
+  },
+  "wilton": {
+    "excludes": [
+      "build",
+      "dist/logger.d.ts",
+      "dist/logger.js",
+      "dist/vuex.common.js",
+      "dist/vuex.esm.js",
+      "dist/vuex.min.js",
+      "docs",
+      "examples",
+      "src",
+      "test",
+      "types",
+      "bower.json",
+      "yarn.lock",
+      "circle.yml",
+      "package-lock.json"
+    ]
   }
 }
